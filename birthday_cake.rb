@@ -50,7 +50,7 @@ class BirthdayCake
   end
 
   def BirthdayCake.celebrate(age)
-    birthday_cake = Birthdaycake.new(age)
+    birthday_cake = BirthdayCake.new(age)
     puts birthday_cake.greet
     puts birthday_cake.to_s
     puts "Lighting candles..."
